@@ -1,0 +1,46 @@
+.search-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #9cb1c7;
+
+    .control-label {
+        position: absolute;
+        left: 10px;
+        top: 8px;
+        background-color: white;
+        padding: 0px 10px;
+        transition: 0.2s;
+        color: rgba(0, 0, 0, 0.644);
+    }
+
+    .label-not-focus {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .label-focus {
+        top: 0%;
+        transform: translateY(-15px);
+        color: #9cb1c7;
+        font-size: 90%;
+    }
+    
+    input[type=text] {
+        padding-left: 20px;
+        font-size: 16px;
+        color: #5a6572;
+        height: 30px;
+        border: none;
+        outline: none;
+    }   
+
+    input[type=text]:disabled {
+        background: unset;
+        color: #5a657291;
+    }
+
+}
+

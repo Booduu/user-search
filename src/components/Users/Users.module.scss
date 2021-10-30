@@ -1,0 +1,14 @@
+.users-container {
+    width: 70%;
+    max-width: 400px;
+    min-width: 300px;
+    margin: 0 auto;
+
+    .container {
+        .error-container {
+            font-size: 14px;
+            padding: 5px 20px ;
+            color: crimson;
+        }
+    }
+}

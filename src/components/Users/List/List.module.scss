@@ -1,0 +1,36 @@
+.list-container {
+    color: #5a6572;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        
+        li {
+            padding: 10px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.034);
+            }
+
+           .item {
+                display: flex;
+                align-items: center;
+
+                .item-img {
+                    width: 30px;
+                    height: 30px;
+                    overflow: hidden;
+                    border-radius: 50% 50%;
+                    img {
+                        width: 30px;
+                        height: 30px; 
+                    }
+                }
+                .item-name {
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}
